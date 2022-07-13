@@ -8,6 +8,7 @@
 	import email from '../assets/images/icons/mail.png';
 	import phone from '../assets/images/icons/phone-call.png';
 	import location from '../assets/images/icons/location-1.png';
+	import pic13 from "../assets/images/pexels-obregonia-d-toretto-918281.jpg"
 </script>
 
 <svelte:head>
@@ -64,6 +65,12 @@
 				<img src={pic12} alt="" />
 				<h4>Videography</h4>
 			</div>
+			<div class="service-box">
+				<!-- svelte-ignore a11y-media-has-caption -->
+				<img src={pic13} alt="" />
+				
+				<h4>Film Production</h4>
+			</div>
 		</div>
 		<footer class="footer">
 			<h2>Let's do Business</h2>
@@ -71,7 +78,7 @@
 				<div class="contact">
 					<div class="contact-box">
 						<img src={email} alt="" /> :
-						<p>aglistudiosgh@gmail.com</p>
+						<p>info@aglistudiosgh.com</p>
 					</div>
 					<div class="contact-box">
 						<img src={phone} alt="" /> :
@@ -184,7 +191,9 @@
 					img {
 						width: 100%;
 						height: 250px;
+						border-radius: 20px;
 					}
+					
 				}
 			}
 			.footer {
