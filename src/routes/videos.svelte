@@ -95,18 +95,18 @@
 			video {
 				border-radius: 24px;
 				outline: none;
-				// width: 100%;
+
 				border: none;
 			}
-			.closebut {
-				color: #c8a461;
-				font-size: 50px;
-				cursor: pointer;
-				transition: ease 0.5s;
-				&:hover {
-					transform: rotate(90deg);
-				}
-			}
+			// .closebut {
+			// 	color: #c8a461;
+			// 	font-size: 50px;
+			// 	cursor: pointer;
+			// 	transition: ease 0.5s;
+			// 	&:hover {
+			// 		transform: rotate(90deg);
+			// 	}
+			// }
 		}
 		.video-box {
 			display: flex;
