@@ -50,6 +50,7 @@
 		<section class="video-container" on:click={handleCloseVideoContainer}>
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video
+				playsinline
 				controls
 				controlsList={canDownload}
 				autoplay="true"
