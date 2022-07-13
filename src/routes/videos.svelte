@@ -67,6 +67,9 @@
 			<div class="box">
 				<!-- svelte-ignore a11y-media-has-caption -->
 				<video
+					preload="yes"
+					width="100%"
+					height="auto"
 					playsinline
 					oncontextmenu="return false;"
 					controlsList="nodownload"
