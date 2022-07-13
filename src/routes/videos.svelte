@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const prductionVideos = await fetch(`http://127.0.0.1:8000/pro_vids/`, {
+		const prductionVideos = await fetch(`https://aglistudiosgh.xyz/pro_vids/`, {
 			headers: {
 				'content-type': 'application/json',
 				accept: 'application/json'
