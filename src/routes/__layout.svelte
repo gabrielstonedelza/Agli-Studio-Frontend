@@ -22,7 +22,6 @@
 	<div class="mainnavitems">
 		<div class="title">
 			<img src={Logo} alt="" />
-			<!-- <h3>Agli Studio</h3> -->
 		</div>
 
 		<div class="menulinks">
@@ -59,7 +58,7 @@
 			<div class="mainnavitems">
 				<!-- <p class="close" on:click={handleClosedSideNav}>X</p> -->
 				<div class="title">
-					<h2>AGLISTUDIO</h2>
+					<img src={Logo} alt="" />
 				</div>
 
 				<div class="menulinks">

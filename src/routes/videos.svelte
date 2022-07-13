@@ -67,6 +67,7 @@
 			<div class="box">
 				<!-- svelte-ignore a11y-media-has-caption -->
 				<video
+					playsinline
 					oncontextmenu="return false;"
 					controlsList="nodownload"
 					on:click={(e) => openModal(vid.get_video)}
@@ -113,20 +114,20 @@
 			justify-content: center;
 			flex-wrap: wrap;
 
-			.box{
-				height:15rem;
+			.box {
+				height: 15rem;
 				width: 25rem;
 				margin: 2rem;
 				overflow: hidden;
 				border-radius: 1rem;
-				video{ 
-					height:100%;
-					width:100%;
-					object-fit:cover;
+				video {
+					height: 100%;
+					width: 100%;
+					object-fit: cover;
 					outline: none;
 					border: none;
 					cursor: pointer;
-					&:hover{
+					&:hover {
 						transition: 1s linear;
 						transform: scale(1.3);
 					}

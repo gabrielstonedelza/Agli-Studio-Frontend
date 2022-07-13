@@ -18,7 +18,7 @@
 			<h4>Pictures</h4>
 		</div>
 	</a>
-	<a sveltekit:prefetch sveltekit:noscroll  href="/videos">
+	<a href="/videos">
 		<div class="gallery-box">
 			<img src={pic1} alt="" />
 			<h4>Videos</h4>
