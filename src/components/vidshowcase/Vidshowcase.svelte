@@ -4,7 +4,7 @@
 
 <section class="banner">
 	<!-- svelte-ignore a11y-media-has-caption -->
-	<video muted autoplay loop controlsList="nodownload" oncontextmenu="return false;">
+	<video muted autoplay loop controlsList="nodownload" oncontextmenu="return false;" playsinline>
 		<source src={vid} type="video/mp4" />
 	</video>
 	<div class="content">
