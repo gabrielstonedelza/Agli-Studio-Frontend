@@ -68,8 +68,8 @@
 				<!-- svelte-ignore a11y-media-has-caption -->
 				<video
 					muted
-					preload="yes"
-					width="100%"
+					preload="metadata"
+					
 					height="auto"
 					playsinline
 					oncontextmenu="return false;"
