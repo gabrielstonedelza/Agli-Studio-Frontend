@@ -50,6 +50,7 @@
 		<section class="video-container" on:click={handleCloseVideoContainer}>
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video
+				
 				playsinline
 				controls
 				controlsList={canDownload}
@@ -69,7 +70,7 @@
 				<video
 					muted
 					preload="metadata"
-					
+					poster={vid.get_poster}
 					height="auto"
 					playsinline
 					oncontextmenu="return false;"
