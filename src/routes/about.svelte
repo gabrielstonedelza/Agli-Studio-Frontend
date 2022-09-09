@@ -9,6 +9,7 @@
 	import phone from '../assets/images/icons/phone-call.png';
 	import location from '../assets/images/icons/location-1.png';
 	import pic13 from "../assets/images/pexels-obregonia-d-toretto-918281.jpg"
+	import castro from "../assets/images/castro1.jpg";
 </script>
 
 <svelte:head>
@@ -32,6 +33,23 @@
 				world with execellence. Our biggest joy is to see our clients been satisfied to the maximum
 				in all ways.
 			</p>
+		</div>
+		
+		<div class="portfolio">
+			
+			<div class="portfolio-content">
+				<h2>Owusu Ansah Castro</h2>
+				<p>
+					Owusu Ansah Castro is a Ghanaian film maker,a creative director and the founder and CEO of AGLI VENTURES(agli studios)
+				</p>
+				<p>
+					He established agli studios in 2013 and has since been dominant in the film and creative art industry.
+				</p>
+				<p>Two of his projects ("My Cape Coast Love and We2") were selected among the first 25 projects for the 2021 presidential film pitch series in Ghana which he got funding from the ROK Studios to work on "WE2"</p>
+			</div>
+			<div class="portfolio-pic">
+				<img src={castro} alt="" />
+			</div>
 		</div>
 		<h2>Portfolio</h2>
 		<div class="portfolio">
